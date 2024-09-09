@@ -45,5 +45,13 @@ public class Main {
             }
         }
         System.out.println(adj);
+        int[][] array = {{1,2},{3,4,5},{6,7,8,9}};
+        for (int i = 0; i < array.length; i++) {
+            for (int x : array[i]){
+                System.out.print(x + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
