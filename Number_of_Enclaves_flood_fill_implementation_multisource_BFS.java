@@ -1,5 +1,4 @@
 import java.util.*;
-
 class pair3{
     int row;
     int col;

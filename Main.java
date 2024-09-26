@@ -51,7 +51,16 @@ public class Main {
                 System.out.print(x + " ");
             }
             System.out.println();
+
         }
+        ArrayList<ArrayList<String>> ans = new ArrayList<>();
+        ArrayList<String> arr1 = new ArrayList<>(Arrays.asList("hot", "dot", "dog", "lot", "log"));
+        ArrayList<String> arr2 = new ArrayList<>(Arrays.asList("hot", "dog", "lot", "log"));
+        ans.add(arr1);
+        ans.add(arr2);
+            for (String s : ans.get(1)){
+                System.out.print(s+" ");
+            }
 
     }
 }
